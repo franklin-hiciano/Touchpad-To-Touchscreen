@@ -2,7 +2,7 @@
 
 Touchpad → Touchscreen transforms an ordinary laptop touchpad into a simulated touchscreen. By placing your thumb, middle, and pinky fingers on the pad as a steady reference, the software predicts where your index finger would “touch” on the screen and moves the cursor there. It includes a visual grid and pointer indicator for calibration, gesture-based triggers for reliability, and even the option to save trace images of your finger movements for later analysis.
 
-This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software. **For Linux users.**
+This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software. **Available for Linux.**
 
 ![20250924_154754(5)](https://github.com/user-attachments/assets/33969678-afaf-4863-978a-7c70951208f1)
 
