@@ -10,8 +10,9 @@ This project is for experimenters, tinkerers, and anyone curious about alternati
 
 ## Installation
 
-1. `pip install evdev PyQt6 && sudo libinput list-devices | sed -n 's/^Device: //p; s/^Kernel: //p'`
-2. Copy the text under 'Touchpad'. For me, it's `/dev/input/event13`
+1. Download and extract the zip file for this repo.
+2. Run the following command: `pip install evdev PyQt6 && sudo libinput list-devices | sed -n 's/^Device: //p; s/^Kernel: //p'`
+3. Copy the text under 'Touchpad'. For me, it's `/dev/input/event13`
 
 ## Usage
 
