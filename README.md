@@ -5,9 +5,11 @@ Touchpad → Touchscreen transforms an ordinary laptop touchpad into a simulated
 This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software. **Available for Linux.**
 
 ![20250924_154754(5)](https://github.com/user-attachments/assets/33969678-afaf-4863-978a-7c70951208f1)
+Me using the software.
 
 <img width="1409" height="924" alt="Screenshot_20250924_153321" src="https://github.com/user-attachments/assets/c434553e-4324-4a3c-92a2-10784e04f805" />
-Image of the software. The three dots are my thumb, middle finger and pointer; the golden dot is where it thinks my pointer finger is. 
+The three blue dots are my thumb, middle finger and pointer. The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. 
+
 ## Installation
 
 1. Download and extract the zip file for this repo.
