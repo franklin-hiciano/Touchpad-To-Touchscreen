@@ -1,8 +1,7 @@
 # Touchpad → Touchscreen
 
-Turn a laptop touchpad into a “pseudo-touchscreen”. The app watches three fingers (thumb, middle, pinky) to predict where your pointer finger's where your pointer finger would be on a real touchscreen. 
+Turn a laptop touchpad into a “pseudo-touchscreen”. The app watches three fingers (thumb, middle, pinky) to predict where your pointer finger's where your pointer finger would be on a real touchscreen, which tells you where you're going to tap. 
 
-This notifies you in advance where you're going to tap. 
 
 ![20250924_154754(5)](https://github.com/user-attachments/assets/33969678-afaf-4863-978a-7c70951208f1)
 
@@ -32,7 +31,7 @@ To stop the program, press Ctrl+C in the terminal.
 
 ## Why I created this
 
-For fun! Email me at fhiciano5@gmail.com if you have suggestions.
+For fun!  Email me at fhiciano5@gmail.com if you have suggestions.
 
 ## Requirements
 
