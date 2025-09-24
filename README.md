@@ -2,7 +2,7 @@
 
 Touchpad → Touchscreen transforms an ordinary laptop touchpad into a simulated touchscreen. By placing your thumb, middle, and pinky fingers on the pad as a steady reference, the software predicts where your index finger would “touch” on the screen and moves the cursor there. It includes a visual grid and pointer indicator for calibration, gesture-based triggers for reliability, and even the option to save trace images of your finger movements for later analysis.
 
-This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software.
+This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software. **For Linux users.**
 
 ![20250924_154754(5)](https://github.com/user-attachments/assets/33969678-afaf-4863-978a-7c70951208f1)
 
@@ -10,29 +10,16 @@ This project is for experimenters, tinkerers, and anyone curious about alternati
 
 ## Installation
 
-Requires Linux.
-
-Open up a terminal and run:
-1. `pip install evdev PyQt6`
-2. `sudo libinput list-devices | sed -n 's/^Device: //p; s/^Kernel: //p'`.Copy the text under 'Touchpad'. For me, it's `/dev/input/event13`
+1. `pip install evdev PyQt6 && sudo libinput list-devices | sed -n 's/^Device: //p; s/^Kernel: //p'`
+2. Copy the text under 'Touchpad'. For me, it's `/dev/input/event13`
 
 ## Usage
 
-Run the following command:
+1. Run the following command:
 ```
 sudo python ./touchpad2touch_patched4.py /dev/input/event13   --grab   --ref-count 3   --indicator   --show-action-dot   --grid 6   --trigger gesture   --gesture-hold-ms 350   --outer-ellipse-scale 1.000   --pointer-ellipse-ratio 0.950   --pointer-center-shift-gamma 1.2   --pointer-mark-deg -25   --pred-min-ellipse-a-px 700   --pred-min-ellipse-b-px 500   --pred-minM-ellipse-a-px 200   --pred-minM-ellipse-b-px 180   --pointer-mark-slope 1.2   --shots-dir ~/Pictures
 ```
-
-Place your thumb, middle finger, and pinky on the touchpad, in order.
-Use your pointer finger to tap and swipe.
-
-Enjoy!
-
-To stop the program, press Ctrl+C in the terminal.
-
-## Why I created this
-
-For fun!  Email me at fhiciano5@gmail.com if you have suggestions.
+2. Place your thumb, middle finger, and pinky on the touchpad, in order. Use your pointer finger to tap and swipe. To stop the program, press Ctrl+C in the terminal.
 
 ## Options
 
