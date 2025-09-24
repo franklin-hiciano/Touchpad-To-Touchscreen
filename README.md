@@ -1,7 +1,8 @@
 # Touchpad To Touchscreen
 
-Turns a laptop touchpad into a “pseudo-touchscreen”. The app watches three other fingers to predict where your pointer finger would be on a real touchscreen, which tells you where you're going to tap. 
+Touchpad → Touchscreen transforms an ordinary laptop touchpad into a simulated touchscreen. By placing your thumb, middle, and pinky fingers on the pad as a steady reference, the software predicts where your index finger would “touch” on the screen and moves the cursor there. It includes a visual grid and pointer indicator for calibration, gesture-based triggers for reliability, and even the option to save trace images of your finger movements for later analysis.
 
+This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software.
 
 ![20250924_154754(5)](https://github.com/user-attachments/assets/33969678-afaf-4863-978a-7c70951208f1)
 
