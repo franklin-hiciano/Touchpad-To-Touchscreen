@@ -2,13 +2,13 @@
 
 Touchpad → Touchscreen transforms an ordinary laptop touchpad into a simulated touchscreen. By placing your thumb, middle, and pinky fingers on the pad as a steady reference, the software predicts where your index finger would “touch” on the screen and moves the cursor there. It includes a visual grid and pointer indicator for calibration, gesture-based triggers for reliability, and even the option to save trace images of your finger movements for later analysis.
 
-This project is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software. **Available for Linux.**
+This project was made in a weekend with ChatGPT. It is for experimenters, tinkerers, and anyone curious about alternative input methods — blending human ergonomics with creative software. **Available for Linux.**
 
 ![20250924_154754(5)](https://github.com/user-attachments/assets/33969678-afaf-4863-978a-7c70951208f1)
 Me using the software.
 
 <img width="1409" height="924" alt="Screenshot_20250924_153321" src="https://github.com/user-attachments/assets/c434553e-4324-4a3c-92a2-10784e04f805" />
-The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. The three blue dots are my thumb, middle finger and pinky. 
+The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. The purple pizza is my pointer finger's range of motion. The three blue dots are my thumb, middle finger and pinky. Each circle is the path my fingers trace when I rotate my wrist. My hand generally moves together, so using the positions of my other fingers I can predict where the pointer will be.
 
 ## Installation
 
@@ -34,4 +34,7 @@ sudo python ./touchpad2touch_patched4.py /dev/input/event13   --grab   --ref-cou
 - `--grid 6` Shows a 6×6 overlay grid for calibration; set `0` to disable.
 - `--show-action-dot` Tiny dot at predicted pointer.
 - `--shots-dir ~/Pictures` Where PNG traces are saved.
+
+## Contact
+fhicano5@gmail.com
 
