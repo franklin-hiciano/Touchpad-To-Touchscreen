@@ -1,4 +1,4 @@
-# Touchpad → Touchscreen
+# Touchpad To Touchscreen
 
 Turn a laptop touchpad into a “pseudo-touchscreen”. The app watches three fingers (thumb, middle, pinky) to predict where your pointer finger's where your pointer finger would be on a real touchscreen, which tells you where you're going to tap. 
 
