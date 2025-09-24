@@ -34,12 +34,6 @@ To stop the program, press Ctrl+C in the terminal.
 
 For fun!  Email me at fhiciano5@gmail.com if you have suggestions.
 
-## Requirements
-
-- Unix with root user
-- Python 3.10+ and typical EV input deps (install via `requirements.txt` in this repo).
-- Permission to read your touchpad device and write to `/dev/uinput` (root or udev rules).
-
 ## Options
 
 - `--grab` Exclusively grabs the touchpad so other apps don’t “see” raw fingers while armed.
