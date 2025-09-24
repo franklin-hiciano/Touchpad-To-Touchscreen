@@ -8,7 +8,7 @@ This project is for experimenters, tinkerers, and anyone curious about alternati
 Me using the software.
 
 <img width="1409" height="924" alt="Screenshot_20250924_153321" src="https://github.com/user-attachments/assets/c434553e-4324-4a3c-92a2-10784e04f805" />
-The three blue dots are my thumb, middle finger and pointer. The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. 
+The three blue dots are my thumb, middle finger and pinky. The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. 
 
 ## Installation
 
