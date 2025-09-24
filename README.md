@@ -8,7 +8,7 @@ This project was made in a weekend with ChatGPT. It is for experimenters, tinker
 Me using the software.
 
 <img width="1409" height="924" alt="Screenshot_20250924_153321" src="https://github.com/user-attachments/assets/c434553e-4324-4a3c-92a2-10784e04f805" />
-The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. The purple pizza is my pointer finger's range of motion. The three blue dots are my thumb, middle finger and pinky. Each circle is the path my fingers trace when I rotate my wrist. My hand generally moves together, so using the positions of my other fingers I can predict where the pointer will be.
+The golden dot is where Touchpad To Touchscreen thinks my pointer finger is. The purple pizza is my pointer finger's range of motion. The three blue dots are my thumb, middle finger and pinky. Each circle is the path my fingers trace when I rotate my wrist; in this image it doesn't think my pointer finger is on the purple circle because my middle finger is in the way. My hand generally moves together, so using the positions of my other fingers I can predict where the pointer will be.
 
 ## Installation
 
